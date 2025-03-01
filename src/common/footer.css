@@ -1,0 +1,39 @@
+.main-footer{
+    background-image: url(/src/assets/images/footer-bg.png);
+    background-color: rgb(16, 16, 16);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#prefooter{
+    min-height: 250px;
+    color: var(--color-gris-claro);
+    padding: 25px 0;
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+}
+.icon{
+    color: rgba(197, 35, 33);
+}
+#logo2{
+    max-width: 350px; 
+    padding-left: 90px;
+    display: inline-block;
+  }
+#footer{
+
+    color: var(--color-gris-claro);
+    padding: 25px 0;
+    text-align: center;
+    border-top: solid 1px rgb(86, 86, 86);
+}
+#footer .container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+#footer .container p{
+    color: rgba(197, 35, 33);
+}
+#footer .container p:hover{
+    color: white
+}

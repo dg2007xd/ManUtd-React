@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Markazi+Text:wght@400..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+:root{
+  --color4: #F93827;
+  --color-gris-claro: #CCCCCC;
+  --color-gris-oscuro: #333333;
+  --color-blanco: #FFFFFF;
+  --color-negra: #000000;
+}
+body{
+  font-family: "Bebas Neue", serif;
+}
+h1{
+  font-size: 72px;
+  letter-spacing: -4px;
+  font-weight: 200;
+}
+
+.navbar-nav .nav-link.active{
+  font-size: 17px;
+  letter-spacing: 0px;
+  color: rgba(196, 34, 33);
+}
+.navbar-nav .nav-link{
+  color: white
+}
+.nav-item:hover .nav-link{
+  color: rgba(196, 34, 33);
+}
+h3{
+  font-size: 24px;
+  letter-spacing: 700;
+  text-transform: uppercase;
+}
+.padded{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.padded-clientes{
+  padding-bottom: 90px;
+}
+.padded-campeonatos{
+  padding-bottom: 90px;
+}
+.padded-partidos{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#logo{
+  max-width: 350px; 
+  padding-left: 90px;
+}
+#page-header{
+  background-color: var(--color1);
+  color: var(--color-blanco);
+  padding: 20px 0;
+  border-bottom: solid 3px var(--color2);
+}
+.bg-body-tertiary{
+  --bs-bg-opacity: 1;
+  background-color: rgba(33, 33, 33, 0.95) !important;
+
+}
+.icono{
+  color: white;
+  padding-left: 30px;
+  size: 90px;
+}
+.icono:hover{
+  color: rgba(196, 34, 33);
+}
+
+.banners{
+  max-height: 1000px;
+  filter: brightness(60%);
+}
+.banners2{
+  max-height: 550px;
+  filter: brightness(55%);
+}
+.carousel-text {
+  position: absolute;
+  right: 0%;
+  bottom: 1.25rem;
+  left: 10%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  top: 25%;
+  font-size: 50px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+}
+.carousel-text h2{
+  font-size: 70px;
+  font-family: "Bebas Neue", serif;
+}
+mark{
+  background-color: RGB(197, 34, 33);
+  color: white;
+  font-family: "Urbanist", serif;
+  font-style: italic;
+  font-weight: 170;
+  padding: 2px 5px;
+  display: inline-block;
+  transform: skewX(-10deg);
+}
+.boton{
+  background-color: RGB(197, 34, 33);
+  color: white;
+  border-color: transparent;
+  min-width: 200px;
+  font-size: 20px;
+  line-height: 50px;
+  max-height: 52px;
+}
+.partido{
+  background-image: url(/src/assets/images/texture.png);
+  background-color: rgba(33, 33, 33, 0.95);
+}
+.texto-partido{
+  background-color: rgba(196, 34, 33);
+  max-width: 160px;
+  margin: auto;
+}
+.texto-clubs{
+  font-size: 48px;
+  margin: auto;
+  margin-right: 5%;
+}
+.simbolos{
+  font-size: 48px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  margin-right: 8%;
+}
+.logo-club{
+  max-width: 65px;
+  margin-right: 1%;
+  margin-left: -4%;
+  margin-bottom: 1%;
+}
+.titulo-cliente{
+  margin-top: 5%;
+  color: black;
+}
+.table .titulo-rojo{
+  background-color: rgba(196, 34, 33);
+  color: white;
+  font-weight: normal;
+}
+.texto1{
+  color: white;
+  font-size: 20px;
+}
+.texto2{
+  color: rgba(196, 34, 33);
+  font-size: 20px;
+}
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  font-family: "Urbanist", serif;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 32px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.manutd{
+  color: RGB(196, 34, 33);
+  margin-left: 10px;
+}
+.texto-acerca{
+  font-family: "Urbanist", serif;
+  justify-items: start;
+  margin-left: 31px;
+}
+.texto-info{
+  padding-top: 50px;
+}
+.copas{
+  max-height: 305px;
+
+}
+.pasados{
+  background-color: #F5F4F5;
+}
+.cuadros{
+  background-color: white;
+
+}
+.texto-pasados{
+  background-color: rgba(196, 34, 33);
+  width: 100px;
+  margin: auto;
+  color: white;
+}
+.partido-anterior{
+  justify-content: space-evenly;
+}
+.fecha-pasada{
+  font-family: "Urbanist", serif;
+  color: #777777;
+
+}
+.marcador{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 50px;
+}
+.simbolo-pasado{
+  font-size: 35px;
+  font-family: "Urbanist", serif;
+}
+
+.team{
+  align-self: center;
+}
+.row-partido{
+  width: 500px;
+}
+.numeros{
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.text-simple{
+  font-weight: normal;
+  font-family: "Urbanist", serif;
+}
+.formulario{
+  height: 35rem;
+  background-color: #F5F5F5;
+}
+.img-new{
+  height: 250px;
+  width: 500px;
+}
+.Snews{
+  height: 130px;
+}
+.stadiofake{
+  width: 550px;
+}
+.champions-text{
+  opacity: 0.05;
+  pointer-events: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 250px;
+  line-height: 250px;
+  color: #222222;
+  color: var(--black);
+
+  overflow: hidden;
+  display: block;
+  top: 50%;
+  margin-left: -270px;
+  margin-inline-start: -270px;
+  margin-inline-end: 0;
+}
+
+
