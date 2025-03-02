@@ -84,7 +84,12 @@ h3{
     max-height: 650px;
     filter: brightness(60%);
   }
+  .texto-banner´{
+    font-size: 60px;
+    align-items: center;
+  }
 }
+
 .banners2{
   max-height: 550px;
   filter: brightness(55%);
