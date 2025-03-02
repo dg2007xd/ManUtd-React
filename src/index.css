@@ -79,13 +79,16 @@ h3{
   height: 1000px;
   filter: brightness(60%);
 }
+.texto-banner{
+  font-size: 5rem;
+}
 @media (max-width: 768px) {
   .banners {
     max-height: 650px;
     filter: brightness(60%);
   }
-  .texto-banner´{
-    font-size: 60px;
+  .texto-banner{
+    font-size: 4rem;
     align-items: center;
   }
 }
