@@ -75,7 +75,7 @@ h3{
 }
 
 .banners{
-  max-height: 1000px;
+  height: 1000px;
   filter: brightness(60%);
 }
 .banners2{
