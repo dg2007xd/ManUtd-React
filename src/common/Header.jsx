@@ -29,16 +29,41 @@ function Header() {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                            <Link className="nav-link active ms-3 pages" to="/">HOME</Link>
+                            <Link className="nav-link active ms-3 pages dropbtn" to="/">HOME {'>'}{'>'}</Link>
+                            <div className='dropdown-content'>
+                                <Link to="/">Home Club</Link>
+                                <Link to="#">Home School</Link>
+                                <Link to="#">Home Pub</Link>
+                                <Link to="#">Home Store</Link>
+                                <Link to="#">Home Club RTL</Link>
+                            </div>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link ms-3 pages" to="/acercadenosotros">ABOUT US</Link>
+                            <Link className="nav-link ms-3 pages dropbtn" to="/acercadenosotros">ABOUT US {'>'}{'>'}</Link>
+                            <div className='dropdown-content'>
+                                <Link to="/acercadenosotros">About Us</Link>
+                                <Link to="#">Our Team</Link>
+                                <Link to="#">Testimonials</Link>
+                                <Link to="#">FAQ</Link>
+                                <Link to="#">Gallery</Link>
+                            </div>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link ms-3 pages" to="#">PRODUCTS</Link>
+                            <Link className="nav-link ms-3 pages dropbtn" to="#">PRODUCTS {'>'}{'>'}</Link>
+                            <div className='dropdown-content'>
+                                <Link to="#">Shop</Link>
+                                <Link to="#">Wishlist</Link>
+                                <Link to="#">Cart</Link>
+                                <Link to="#">Checkout</Link>
+                                <Link to="#">My account</Link>
+                            </div>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link ms-3 pages" to="#">BLOG</Link>
+                            <Link className="nav-link ms-3 pages dropbtn" to="#">BLOG {'>'}{'>'}</Link>
+                            <div className='dropdown-content'>
+                                <Link to="#">Blog with Sidebar</Link>
+                                <Link to="#">Blog without Sidebar</Link>
+                            </div>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link ms-3 pages" to="/clientes">CLIENTS</Link>

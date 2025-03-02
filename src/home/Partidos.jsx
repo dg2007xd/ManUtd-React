@@ -92,7 +92,7 @@ function Partidos() {
                       <p className='marcador'>0</p>
                     </div>
                   </div>
-                  <p className='fecha-pasada'>Febrero 02, 2025</p>
+                  <p className='fecha-pasada'>Enero 30, 2025</p>
                   <p className='fecha-pasada'>Old Trafford</p>
                 </div>
                 <div className="col team">
@@ -126,7 +126,7 @@ function Partidos() {
                       <p className='marcador'>0</p>
                     </div>
                   </div>
-                  <p className='fecha-pasada'>Febrero 02, 2025</p>
+                  <p className='fecha-pasada'>Enero 26, 2025</p>
                   <p className='fecha-pasada'>Old Trafford</p>
                 </div>
                 <div className="col team">
