@@ -79,6 +79,12 @@ h3{
   height: 1000px;
   filter: brightness(60%);
 }
+@media (max-width: 768px) {
+  .banners {
+    max-height: 650px;
+    filter: brightness(60%);
+  }
+}
 .banners2{
   max-height: 550px;
   filter: brightness(55%);
