@@ -18,7 +18,7 @@ function Header() {
     }, []);
 
     return (
-        <nav className={`navbar navbar-expand-lg fixed-top ${scrolling ? 'bg-dark' : 'bg-transparent'}`}>
+        <nav className={`navbar navbar-expand-lg fixed-top ${scrolling ? 'bg-body-tertiary' : 'bg-transparent'}`}>
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
                     <img id='logo' src={logo} alt="Logo" className='img-fluid' />
