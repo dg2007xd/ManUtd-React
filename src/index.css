@@ -4,31 +4,6 @@
 	height: 500px;
 	width: 100%;
 }
-.carousel-text {
-  position: absolute;
-  bottom: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: white;
-  width: 90%;
-}
-
-.banner-title {
-  font-size: 3vw;
-  font-weight: bold;
-}
-
-@media (max-width: 768px) {
-  .banner-title {
-    font-size: 5vw;
-    text-align: center;
-  }
-  
-  .boton {
-    font-size: 3vw;
-  }
-}
 
 :root{
   --color4: #F93827;
