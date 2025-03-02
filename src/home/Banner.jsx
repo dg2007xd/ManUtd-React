@@ -14,7 +14,7 @@ function Banner() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={banner1} className="d-block w-100 banners" alt="..." />
-                        <div className="carousel-text d-none d-md-block">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                        <div className="carousel-text d-block text-center">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     
                             <h2 className='texto-banner'><b>POR QUE </b><mark> AMAD DIALLO</mark></h2>
                             <h2 className='texto-banner'><b>FUE EL MVP</b></h2>
@@ -27,7 +27,7 @@ function Banner() {
                     </div>
                     <div className="carousel-item">
                         <img src={banner2} className="d-block w-100 banners" alt="..." />
-                        <div className="carousel-text d-none d-md-block">
+                        <div className="carousel-text d-block text-center">
                           <h2 className='texto-banner'><b>YA LLEGÓ</b></h2>
                           <h2 className='texto-banner'><b><mark>PATRICK DORGU</mark></b></h2>
                           <h2 className='texto-banner'><b>BIENVENIDO</b></h2>
@@ -39,7 +39,7 @@ function Banner() {
                     </div>
                     <div className="carousel-item">
                         <img src={banner3} className="d-block w-100 banners" alt="..." />
-                        <div className="carousel-text d-none d-md-block">
+                        <div className="carousel-text d-block text-center">
                           <h2 className='texto-banner'><b><mark>MARCUS RASHFORD</mark></b></h2>
                           <h2 className='texto-banner'><b>DEJARÁ MANCHESTER,</b></h2>
                           <h2 className='texto-banner'><b>BUENA SUERTE</b></h2>
