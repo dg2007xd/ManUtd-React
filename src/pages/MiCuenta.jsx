@@ -28,7 +28,7 @@ function MiCuenta() {
                     <label>CONTRASEÑA *</label>
                     <div className='password-input-container'>
                         <input type={passwordVisible ? 'text' : 'password'} required />
-                        <span onClick={() => setPasswordVisible(!passwordVisible)} className='password-toggle'>
+                        <span onClick={() => setPasswordVisible(!passwordVisible)} className='password-toggle ojo'>
                             {passwordVisible ? <i className="bi bi-eye-slash"></i>  : <i class="bi bi-eye"></i>}
                         </span>
                     </div>
