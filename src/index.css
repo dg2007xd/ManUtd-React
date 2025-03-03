@@ -107,19 +107,23 @@ h3 {
     filter: brightness(60%);
   }
   .texto-banner {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
   }
   .texto-corto {
     color: white;
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   .texto-corto2 {
     color: rgba(196, 34, 33);
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   .carousel-text {
     text-align: center;
+  }
+  .banners2 {
+    height: 400px;
+    filter: brightness(55%);
   }
 }
 
