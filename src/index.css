@@ -144,12 +144,12 @@ h3 {
     filter: brightness(55%);
   }
   #rememberMe{
-    max-width: 6% !important;
+    min-width: 6% !important;
   }
   .search-bar {
     position: absolute !important;
-    top: 11px !important;
-    left: 71% !important;
+    top: 21% !important;
+    left: 70% !important;
   }
 }
 
@@ -500,7 +500,7 @@ mark {
 
 .search-bar {
   position: absolute;
-  top: 17px;
+  top: 20%;
   left: 81%;
   transform: translateX(-50%);
   width: 250px;
