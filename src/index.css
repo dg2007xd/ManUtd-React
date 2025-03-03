@@ -92,11 +92,13 @@ h3 {
 .texto-banner {
   font-size: 5rem;
 }
-.texto-corto{
+
+.texto-corto {
   color: white;
   font-size: 4rem;
 }
-.texto-corto2{
+
+.texto-corto2 {
   color: rgba(196, 34, 33);
   font-size: 4rem;
 }
@@ -106,23 +108,38 @@ h3 {
     max-height: 800px;
     filter: brightness(60%);
   }
+
   .texto-banner {
     font-size: 2.5rem;
     text-align: center;
   }
+
   .texto-corto {
     color: white;
     font-size: 1.5rem;
   }
+
   .texto-corto2 {
     color: rgba(196, 34, 33);
     font-size: 1.5rem;
   }
+
   .carousel-text {
-    text-align: center;
+    position: absolute !important;
+    right: 0% !important;
+    bottom: 1.25rem !important;
+    left: 10% !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+    color: #fff;
+    top: 25% !important;
+    font-size: 50px !important;
+    font-family: "Bebas Neue", serif !important;
+    font-weight: 400 !important;
   }
+
   .banners2 {
-    height: 400px;
+    max-height: 422px;
     filter: brightness(55%);
   }
 }
