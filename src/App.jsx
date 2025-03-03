@@ -23,7 +23,7 @@ function App() {
             <Route path="/clientes" element={<Clientes />} />
             <Route path="/acercadenosotros" element={<AcercadeNosotros />} />
             <Route path="/contacto" element={<Contacto />} />
-            <Route path="/mi-cuenta" element={<MiCuenta />} />
+            <Route path="/micuenta" element={<MiCuenta />} />
         
           </Routes>
         </main>
