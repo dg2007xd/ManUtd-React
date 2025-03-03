@@ -30,7 +30,7 @@ function Header() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
                     <ul className="navbar-nav mx-auto">
-                        <li className="nav-item">
+                        <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "/" ? "active" : ""}`}
                                 to="/">HOME {'>'}{'>'}
@@ -90,7 +90,7 @@ function Header() {
                         </li>
                         <li className="nav-item dropdown">
                             <Link
-                                className={`nav-link ms-3 pages dropbtn ${location.pathname === "/contactos" ? "active" : ""}`}
+                                className={`nav-link ms-3 pages dropbtn ${location.pathname === "/contacto" ? "active" : ""}`}
                                 to="/contactos">CONTACTS {'>'}{'>'}
                             </Link>
                         </li>

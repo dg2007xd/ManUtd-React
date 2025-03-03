@@ -21,11 +21,7 @@ h1{
   font-weight: 200;
 }
 
-.navbar-nav .nav-link.active{
-  font-size: 17px;
-  letter-spacing: 0px;
-  color: rgba(196, 34, 33);
-}
+
 .navbar-nav .nav-link{
   color: white
 }
