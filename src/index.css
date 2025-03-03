@@ -1,101 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Markazi+Text:wght@400..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 #map {
-	height: 500px;
-	width: 100%;
+  height: 500px;
+  width: 100%;
 }
 
-:root{
+:root {
   --color4: #F93827;
   --color-gris-claro: #CCCCCC;
   --color-gris-oscuro: #333333;
   --color-blanco: #FFFFFF;
   --color-negra: #000000;
 }
-body{
+
+body {
   font-family: "Bebas Neue", serif;
 }
-h1{
+
+h1 {
   font-size: 72px;
   letter-spacing: -4px;
   font-weight: 200;
 }
 
 
-.navbar-nav .nav-link{
+.navbar-nav .nav-link {
   color: white
 }
-.nav-item:hover .nav-link{
+
+.nav-item:hover .nav-link {
   color: rgba(196, 34, 33);
 }
-h3{
+
+h3 {
   font-size: 24px;
   letter-spacing: 700;
   text-transform: uppercase;
 }
-.padded{
+
+.padded {
   padding-top: 90px;
   padding-bottom: 90px;
 }
-.padded-clientes{
+
+.padded-clientes {
   padding-bottom: 90px;
 }
-.padded-campeonatos{
+
+.padded-campeonatos {
   padding-bottom: 90px;
 }
-.padded-partidos{
+
+.padded-partidos {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-#logo{
-  max-width: 350px; 
+
+#logo {
+  max-width: 350px;
   padding-left: 90px;
 }
-#page-header{
+
+#page-header {
   background-color: var(--color1);
   color: var(--color-blanco);
   padding: 20px 0;
   border-bottom: solid 3px var(--color2);
 }
-.bg-body-tertiary{
+
+.bg-body-tertiary {
   --bs-bg-opacity: 1;
   background-color: rgba(33, 33, 33, 0.95) !important;
 
 }
-.icono{
+
+.icono {
   color: white;
   padding-left: 30px;
   size: 90px;
 }
-.icono:hover{
+
+.icono:hover {
   color: rgba(196, 34, 33);
 }
 
-.banners{
+.banners {
   height: 1000px;
   filter: brightness(60%);
 }
-.texto-banner{
+
+.texto-banner {
   font-size: 5rem;
 }
+
 @media (max-width: 768px) {
   .banners {
     max-height: 800px;
     filter: brightness(60%);
   }
-  .texto-banner{
+  .texto-banner {
     font-size: 2.5rem;
     text-align: center;
   }
-  .carousel-text{
+  .texto-corto {
+    color: white;
+    font-size: 20px;
+  }
+  .texto-corto2 {
+    color: rgba(196, 34, 33);
+    font-size: 20px;
+  }
+  .carousel-text {
     text-align: center;
   }
 }
 
-.banners2{
+.banners2 {
   height: 600px;
   filter: brightness(55%);
 }
+
 .carousel-text {
   position: absolute;
   right: 0%;
@@ -109,10 +133,12 @@ h3{
   font-family: "Bebas Neue", serif;
   font-weight: 400;
 }
-.carousel-text h2{
+
+.carousel-text h2 {
   font-family: "Bebas Neue", serif;
 }
-mark{
+
+mark {
   background-color: RGB(197, 34, 33);
   color: white;
   font-family: "Urbanist", serif;
@@ -122,7 +148,8 @@ mark{
   display: inline-block;
   transform: skewX(-10deg);
 }
-.boton{
+
+.boton {
   background-color: RGB(197, 34, 33);
   color: white;
   border-color: transparent;
@@ -131,152 +158,189 @@ mark{
   line-height: 50px;
   max-height: 52px;
 }
-.partido{
+
+.partido {
   background-image: url(/src/assets/images/texture.png);
   background-color: rgba(33, 33, 33, 0.95);
 }
-.texto-partido{
+
+.texto-partido {
   background-color: rgba(196, 34, 33);
   max-width: 160px;
   margin: auto;
 }
-.texto-clubs{
+
+.texto-clubs {
   font-size: 48px;
   margin: auto;
   margin-right: 5%;
 }
-.simbolos{
+
+.simbolos {
   font-size: 48px;
   font-family: 'Courier New', Courier, monospace;
   margin: auto;
   margin-right: 8%;
 }
-.logo-club{
+
+.logo-club {
   max-width: 65px;
   margin-right: 1%;
   margin-left: -4%;
   margin-bottom: 1%;
 }
-.titulo-cliente{
+
+.titulo-cliente {
   margin-top: 5%;
   color: black;
 }
-.table .titulo-rojo{
+
+.table .titulo-rojo {
   background-color: rgba(196, 34, 33);
   color: white;
   font-weight: normal;
 }
-.texto1{
+
+.texto1 {
   color: white;
   font-size: 20px;
 }
-.texto2{
+
+.texto2 {
   color: rgba(196, 34, 33);
   font-size: 20px;
 }
+
 .dropbtn {
   color: white;
   font-size: 16px;
   border: none;
 }
+
 .dropdown {
   display: inline-block;
 }
+
 .dropdown-content {
   font-family: "Urbanist", serif;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 220px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
 .dropdown-content a {
   color: black;
   padding: 12px 32px;
   text-decoration: none;
   display: block;
 }
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
 
-.manutd{
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.manutd {
   color: RGB(196, 34, 33);
   margin-left: 10px;
 }
-.texto-acerca{
+
+.texto-acerca {
   font-family: "Urbanist", serif;
   justify-items: start;
   margin-left: 31px;
 }
-.texto-info{
+
+.texto-info {
   padding-top: 50px;
 }
-.copas{
+
+.copas {
   max-height: 305px;
 
 }
-.pasados{
+
+.pasados {
   background-color: #F5F4F5;
 }
-.cuadros{
+
+.cuadros {
   background-color: white;
 
 }
-.texto-pasados{
+
+.texto-pasados {
   background-color: rgba(196, 34, 33);
   width: 100px;
   margin: auto;
   color: white;
 }
-.partido-anterior{
+
+.partido-anterior {
   justify-content: space-evenly;
 }
-.fecha-pasada{
+
+.fecha-pasada {
   font-family: "Urbanist", serif;
   color: #777777;
 
 }
-.marcador{
+
+.marcador {
   background-color: black;
   color: white;
   font-size: 20px;
   width: 50px;
 }
-.simbolo-pasado{
+
+.simbolo-pasado {
   font-size: 35px;
   font-family: "Urbanist", serif;
 }
 
-.team{
+.team {
   align-self: center;
 }
-.row-partido{
+
+.row-partido {
   width: 500px;
 }
-.numeros{
+
+.numeros {
   flex-wrap: nowrap;
   align-items: center;
 }
-.text-simple{
+
+.text-simple {
   font-weight: normal;
   font-family: "Urbanist", serif;
 }
-.formulario{
+
+.formulario {
   height: 35rem;
   background-color: #F5F5F5;
 }
-.img-new{
+
+.img-new {
   height: 250px;
   width: 500px;
 }
-.Snews{
+
+.Snews {
   height: 130px;
 }
-.stadiofake{
+
+.stadiofake {
   width: 550px;
 }
-.champions-text{
+
+.champions-text {
   opacity: 0.05;
   pointer-events: none;
   font-weight: 800;
@@ -294,9 +358,8 @@ mark{
   margin-inline-start: -270px;
   margin-inline-end: 0;
 }
+
 .nav-link.active {
   color: #C42321 !important;
   font-weight: bold;
 }
-
-
