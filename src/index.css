@@ -143,6 +143,10 @@ h3 {
     max-height: 422px;
     filter: brightness(55%);
   }
+  #rememberMe{
+    max-width: 6%;
+    margin-top: 8px;
+  }
 }
 
 .banners2 {
@@ -486,5 +490,6 @@ mark {
   color: #000;
 }
 #rememberMe{
-  width: 10%;
+  width: 2%;
+  margin-top: 8px;
 }
