@@ -146,6 +146,11 @@ h3 {
   #rememberMe{
     max-width: 6% !important;
   }
+  .search-bar {
+    position: absolute !important;
+    top: 11px !important;
+    left: 71% !important;
+  }
 }
 
 .banners2 {
@@ -492,14 +497,11 @@ mark {
   width: 2%;
   margin-top: 8px;
 }
-.navbar {
-  position: relative;
-}
 
 .search-bar {
   position: absolute;
-  top: -40px;
-  left: 50%;
+  top: 17px;
+  left: 81%;
   transform: translateX(-50%);
   width: 250px;
   background: white;
