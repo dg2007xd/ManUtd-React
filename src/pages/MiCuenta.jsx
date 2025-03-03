@@ -19,7 +19,7 @@ function MiCuenta() {
                 </div>
             </div>
 
-            <div className='login-container'>
+            <div className='container padded'>
                 <h2 className='login-title'>LOGIN</h2>
                 <form className='login-form'>
                     <label>USUARIO O CORREO ELECTRÓNICO *</label>
@@ -34,8 +34,8 @@ function MiCuenta() {
                     </div>
                     
                     <div className='remember-me-container'>
-                        <input type='checkbox' id='rememberMe' />
                         <label htmlFor='rememberMe'>RECUÉRDAME</label>
+                        <input type='checkbox' id='rememberMe' />
                     </div>
                     
                     <button type='submit' className='login-button'>INICIAR SESIÓN</button>
