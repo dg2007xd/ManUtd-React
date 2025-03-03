@@ -20,7 +20,7 @@ function Banner() {
                             <h2 className='texto-banner'><b>FUE EL MVP</b></h2>
                             <h2 className='texto-banner'><b>EN EL ULTIMO PARTIDO</b></h2>
     
-                            <button type='button' className='mt-5'>
+                            <button type='button' className='boton mt-5'>
                                 <p>LEER MÁS</p>
                             </button>
                         </div>
@@ -32,7 +32,7 @@ function Banner() {
                           <h2 className='texto-banner'><b><mark>PATRICK DORGU</mark></b></h2>
                           <h2 className='texto-banner'><b>BIENVENIDO</b></h2>
 
-                          <button type='button' className='mt-5'>
+                          <button type='button' className='boton mt-5'>
                                 <p>LEER MÁS</p>
                             </button>
                         </div>
@@ -44,7 +44,7 @@ function Banner() {
                           <h2 className='texto-banner'><b>DEJARÁ MANCHESTER,</b></h2>
                           <h2 className='texto-banner'><b>BUENA SUERTE</b></h2>
 
-                          <button type='button' className='mt-5'>
+                          <button type='button' className='boton mt-5'>
                                 <p>LEER MÁS</p>
                             </button>
                         </div>
