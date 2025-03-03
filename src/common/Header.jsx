@@ -105,8 +105,8 @@ function Header() {
 
                     </ul>
                     <ul className="navbar-nav mx-auto">
-                        <li className='icono'>
-                            <Link to="/micuenta">
+                        <li>
+                            <Link to="/mi-cuenta" className='icono'>
                                 <i className="bi bi-person-circle"></i>
                             </Link>
                         </li>
