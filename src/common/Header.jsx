@@ -18,6 +18,9 @@ function Header() {
     }, []);
 
     const location = useLocation();
+    const [searchVisible, setSearchVisible] = useState(false);
+
+
 
     return (
         <nav className={`navbar navbar-expand-lg fixed-top ${scrolling ? 'bg-body-tertiary' : 'bg-transparent'}`}>
@@ -108,16 +111,24 @@ function Header() {
                         <li>
                             <Link
                                 className={`icono ${location.pathname === "/micuenta" ? "active" : ""}`}
-                                to="/micuenta"><i className="bi bi-person-circle"></i>
+                                to="/micuenta">
+                                <i className="bi bi-person-circle"></i>
                             </Link>
                         </li>
                         <li className='icono'>
                             <i className="bi bi-bag"></i>
                         </li>
-                        <li className='icono'>
+                        <li className='icono' onClick={() => setSearchVisible(!searchVisible)}>
                             <i className="bi bi-search"></i>
                         </li>
                     </ul>
+
+                    {searchVisible && (
+                        <div className="search-bar">
+                            <input type="text" placeholder="Search" />
+                            <i className="bi bi-x close-search" onClick={() => setSearchVisible(false)}></i>
+                        </div>
+                    )}
                 </div>
             </div>
         </nav>

@@ -144,8 +144,7 @@ h3 {
     filter: brightness(55%);
   }
   #rememberMe{
-    max-width: 6%;
-    margin-top: 8px;
+    max-width: 6% !important;
   }
 }
 
