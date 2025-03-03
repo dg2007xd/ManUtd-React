@@ -86,7 +86,7 @@ function Header() {
                                 <Link to="#">Blog without Sidebar</Link>
                             </div>
                         </li>
-                        
+
                         {/*
                         <li className="nav-item dropdown">
                             <Link
@@ -106,9 +106,9 @@ function Header() {
                     </ul>
                     <ul className="navbar-nav mx-auto">
                         <li>
-                            <Link 
-                                className={icono}
-                                to="/micuenta"><i className="bi bi-person-circle"></i>
+                            <Link
+                                className={`icono ${location.pathname === "/micuenta" ? "active" : ""}`}
+                                to="/micuenta"><i class="bi bi-person-circle"></i>
                             </Link>
                         </li>
                         <li className='icono'>
