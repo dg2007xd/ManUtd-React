@@ -146,6 +146,16 @@ h3 {
   #rememberMe{
     min-width: 6% !important;
   }
+  .remember-me-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-direction: row;
+  }
+  
+  .remember-me-container input {
+    margin-right: 5px;
+  }
   .search-bar {
     position: absolute !important;
     top: 21% !important;
