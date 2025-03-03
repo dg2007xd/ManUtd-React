@@ -295,7 +295,7 @@ mark{
   margin-inline-end: 0;
 }
 .nav-link.active {
-  color: red !important;
+  color: #C42321 !important;
   font-weight: bold;
 }
 
