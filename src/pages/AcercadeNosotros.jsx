@@ -13,7 +13,10 @@ function AcercadeNosotros() {
             <img src={equipo} className='d-block w-100  banners2' alt="" />
             <div className='carousel-text d-block'>
                 <h2 className='texto-banner'><b>ACERCA DE NOSOTROS</b></h2>
-                <p className='d-inline-block texto-corto'>HOME | </p> <p className='d-inline-block texto-corto2'>ACERCA DE NOSOTROS</p>
+                <div className='d-flex col'>
+                    <p className='texto-corto'>HOME | </p> 
+                    <p className='texto-corto2'>ACERCA DE NOSOTROS</p>
+                </div>
             </div>
 
             <div className='container padded'>
