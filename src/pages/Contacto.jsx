@@ -7,7 +7,7 @@ function Contacto() {
             <div className='text-center'>
                 <img src={contactoimg} className='d-block w-100 banners2' alt="" />
                 <div className='carousel-text d-block'>
-                    <h2 className='texto-banner'><b>ACERCA DE NOSOTROS</b></h2>
+                    <h2 className='texto-banner'><b>CONTACTO</b></h2>
                     <div className='d-flex col'>
                         <p className='texto-corto'>HOME | </p> 
                         <p className='texto-corto2'>CONTACTO</p>
