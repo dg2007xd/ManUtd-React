@@ -30,6 +30,7 @@ function Header() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
                     <ul className="navbar-nav mx-auto">
+
                         <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "/" ? "active" : ""}`}
@@ -44,6 +45,7 @@ function Header() {
                                 <Link to="#">Home Club RTL</Link>
                             </div>
                         </li>
+
                         <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "/acercadenosotros" ? "active" : ""}`}
@@ -58,6 +60,7 @@ function Header() {
                                 <Link to="#">Gallery</Link>
                             </div>
                         </li>
+
                         <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "#" ? "active" : ""}`}
@@ -72,6 +75,7 @@ function Header() {
                                 <Link to="#">My account</Link>
                             </div>
                         </li>
+
                         <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "#" ? "active" : ""}`}
@@ -82,16 +86,18 @@ function Header() {
                                 <Link to="#">Blog without Sidebar</Link>
                             </div>
                         </li>
+
                         <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "/clientes" ? "active" : ""}`}
                                 to="/clientes">CLIENTS {'>'}{'>'}
                             </Link>
                         </li>
+                        
                         <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "/contacto" ? "active" : ""}`}
-                                to="/contactos">CONTACTS {'>'}{'>'}
+                                to="/contacto">CONTACTS {'>'}{'>'}
                             </Link>
                         </li>
 

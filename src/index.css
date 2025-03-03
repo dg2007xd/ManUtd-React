@@ -294,5 +294,9 @@ mark{
   margin-inline-start: -270px;
   margin-inline-end: 0;
 }
+.nav-link.active {
+  color: red !important;
+  font-weight: bold;
+}
 
 
