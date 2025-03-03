@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { useState } from 'react';
 import micuenta from '../assets/images/mi-cuenta-banner.jpg'
 
 function MiCuenta() {
@@ -29,13 +29,13 @@ function MiCuenta() {
                     <div className='password-input-container'>
                         <input type={passwordVisible ? 'text' : 'password'} required />
                         <span onClick={() => setPasswordVisible(!passwordVisible)} className='password-toggle'>
-                            {passwordVisible ? <i class="bi bi-eye-slash"></i>  : <i class="bi bi-eye"></i>}
+                            {passwordVisible ? <i className="bi bi-eye-slash"></i>  : <i class="bi bi-eye"></i>}
                         </span>
                     </div>
                     
                     <div className='remember-me-container'>
                         <input type='checkbox' id='rememberMe' />
-                        <label htmlFor='rememberMe'>RECUERDAME</label>
+                        <label htmlFor='rememberMe'>RECUÉRDAME</label>
                     </div>
                     
                     <button type='submit' className='login-button'>INICIAR SESIÓN</button>

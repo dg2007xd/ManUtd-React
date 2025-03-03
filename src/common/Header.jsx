@@ -108,7 +108,7 @@ function Header() {
                         <li>
                             <Link
                                 className={`icono ${location.pathname === "/micuenta" ? "active" : ""}`}
-                                to="/micuenta"><i class="bi bi-person-circle"></i>
+                                to="/micuenta"><i className="bi bi-person-circle"></i>
                             </Link>
                         </li>
                         <li className='icono'>
