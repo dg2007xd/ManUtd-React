@@ -86,14 +86,16 @@ function Header() {
                                 <Link to="#">Blog without Sidebar</Link>
                             </div>
                         </li>
-
+                        
+                        {/*
                         <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "/clientes" ? "active" : ""}`}
                                 to="/clientes">CLIENTS {'>'}{'>'}
                             </Link>
                         </li>
-                        
+                        */}
+
                         <li className="nav-item dropdown">
                             <Link
                                 className={`nav-link ms-3 pages dropbtn ${location.pathname === "/contacto" ? "active" : ""}`}
