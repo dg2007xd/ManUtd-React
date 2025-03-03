@@ -492,3 +492,30 @@ mark {
   width: 2%;
   margin-top: 8px;
 }
+.search-bar {
+  position: absolute;
+  top: 60px; /* Ajusta según el diseño */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.close-search {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+  color: #555;
+}
