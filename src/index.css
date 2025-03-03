@@ -126,13 +126,13 @@ h3 {
 
   .carousel-text {
     position: absolute !important;
-    right: 0% !important;
+    right: 10% !important;
     bottom: 1.25rem !important;
     left: 10% !important;
     padding-top: 1.25rem !important;
     padding-bottom: 1.25rem !important;
-    color: #fff;
-    top: 25% !important;
+    color: #fff !important;
+    top: 16% !important;
     font-size: 50px !important;
     font-family: "Bebas Neue", serif !important;
     font-weight: 400 !important;
