@@ -32,9 +32,9 @@ function Header() {
                         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div className="offcanvas-body">
-                        <ul className="navbar-nav mx-auto">
+                        <ul className="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
                             <li className="nav-item dropdown">
-                                <Link className={`nav-link pages dropbtn ${location.pathname === "/" ? "active" : ""}`} to="/" >HOME {'>'}{'>'}</Link>
+                                <Link role="button" data-bs-toggle="dropdown" aria-expanded="false" className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "/" ? "active" : ""}`} to="/" >HOME {'>'}{'>'}</Link>
                                 <div className='dropdown-content'>
                                     <Link to="/">Home Club</Link>
                                     <Link to="#">Home School</Link>
@@ -44,7 +44,7 @@ function Header() {
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link className={`nav-link pages dropbtn ${location.pathname === "/acercadenosotros" ? "active" : ""}`} to="/acercadenosotros" >ABOUT US {'>'}{'>'}</Link>
+                                <Link role="button" data-bs-toggle="dropdown" aria-expanded="false" className={`nav-link pages dropbtn ${location.pathname === "/acercadenosotros" ? "active" : ""}`} to="/acercadenosotros" >ABOUT US {'>'}{'>'}</Link>
                                 <div className='dropdown-content'>
                                     <Link to="/acercadenosotros">About Us</Link>
                                     <Link to="#">Our Team</Link>
@@ -54,7 +54,7 @@ function Header() {
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link className={`nav-link pages dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >PRODUCTS {'>'}{'>'}</Link>
+                                <Link role="button" data-bs-toggle="dropdown" aria-expanded="false" className={`nav-link pages dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >PRODUCTS {'>'}{'>'}</Link>
                                 <div className='dropdown-content'>
                                     <Link to="#">Shop</Link>
                                     <Link to="#">Wishlist</Link>
@@ -64,7 +64,7 @@ function Header() {
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link className={`nav-link pages dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >BLOG {'>'}{'>'}</Link>
+                                <Link role="button" data-bs-toggle="dropdown" aria-expanded="false" className={`nav-link pages dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >BLOG {'>'}{'>'}</Link>
                                 <div className='dropdown-content'>
                                     <Link to="#">Blog with Sidebar</Link>
                                     <Link to="#">Blog without Sidebar</Link>

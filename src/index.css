@@ -545,3 +545,7 @@ mark {
 .ojo{
   margin-bottom: 12px;
 }
+.offcanvas{
+  color: white;
+  background-color: rgba(33, 33, 33, 0.95);
+}
