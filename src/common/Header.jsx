@@ -36,13 +36,13 @@ function Header() {
                             <li className="nav-item dropdown">
                                 <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`}
                                 className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "/" ? "active" : ""}`} to="/" >HOME {'>'}{'>'}</Link>
-                                <div className='dropdown-content'>
-                                    <Link to="/">Home Club</Link>
-                                    <Link to="#">Home School</Link>
-                                    <Link to="#">Home Pub</Link>
-                                    <Link to="#">Home Store</Link>
-                                    <Link to="#">Home Club RTL</Link>
-                                </div>
+                                <ul className='nav-item dropdown-menu'>
+                                    <li><Link className='dropdown-item' to="/">Home Club</Link></li>
+                                    <li><Link className='dropdown-item' to="#">Home School</Link></li>
+                                    <li><Link className='dropdown-item' to="#">Home Pub</Link></li>
+                                    <li><Link className='dropdown-item' to="#">Home Store</Link></li>
+                                    <li><Link className='dropdown-item' to="#">Home Club RTL</Link></li>
+                                </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`}
