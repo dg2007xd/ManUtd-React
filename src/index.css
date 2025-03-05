@@ -278,7 +278,11 @@ mark {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
+dropdown-menu{
+  background-color: rgba(61, 60, 60, 0.95);
+  font-family: "Urbanist", serif;
+  color: white;
+}
 .dropdown-content a {
   color: black;
   padding: 12px 32px;

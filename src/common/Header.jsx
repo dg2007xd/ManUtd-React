@@ -36,7 +36,7 @@ function Header() {
                             <li className="nav-item dropdown">
                                 <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`}
                                 className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "/" ? "active" : ""}`} to="/" >HOME {'>'}{'>'}</Link>
-                                <ul className='nav-item dropdown-menu'>
+                                <ul className='dropdown-content nav-item dropdown-menu'>
                                     <li><Link className='dropdown-item' to="/">Home Club</Link></li>
                                     <li><Link className='dropdown-item' to="#">Home School</Link></li>
                                     <li><Link className='dropdown-item' to="#">Home Pub</Link></li>
@@ -46,33 +46,33 @@ function Header() {
                             </li>
                             <li className="nav-item dropdown">
                                 <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`}
-                                className={`nav-link pages dropbtn ${location.pathname === "/acercadenosotros" ? "active" : ""}`} to="/acercadenosotros" >ABOUT US {'>'}{'>'}</Link>
-                                <div className='dropdown-content'>
-                                    <Link to="/acercadenosotros">About Us</Link>
-                                    <Link to="#">Our Team</Link>
-                                    <Link to="#">Testimonials</Link>
-                                    <Link to="#">FAQ</Link>
-                                    <Link to="#">Gallery</Link>
-                                </div>
+                                className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "/acercadenosotros" ? "active" : ""}`} to="/acercadenosotros" >ABOUT US {'>'}{'>'}</Link>
+                                <ul className='dropdown-content nav-item dropdown-menu'>
+                                    <li><Link to="/acercadenosotros">About Us</Link></li>
+                                    <li><Link to="#">Our Team</Link></li>
+                                    <li><Link to="#">Testimonials</Link></li>
+                                    <li><Link to="#">FAQ</Link></li>
+                                    <li><Link to="#">Gallery</Link></li>
+                                </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`} 
-                                className={`nav-link pages dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >PRODUCTS {'>'}{'>'}</Link>
-                                <div className='dropdown-content'>
-                                    <Link to="#">Shop</Link>
-                                    <Link to="#">Wishlist</Link>
-                                    <Link to="#">Cart</Link>
-                                    <Link to="#">Checkout</Link>
-                                    <Link to="#">My account</Link>
-                                </div>
+                                className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >PRODUCTS {'>'}{'>'}</Link>
+                                <ul className='dropdown-content nav-item dropdown-menu'>
+                                    <li><Link to="#">Shop</Link></li>
+                                    <li><Link to="#">Wishlist</Link></li>
+                                    <li><Link to="#">Cart</Link></li>
+                                    <li><Link to="#">Checkout</Link></li>
+                                    <li><Link to="#">My account</Link></li>
+                                </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`} 
-                                className={`nav-link pages dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >BLOG {'>'}{'>'}</Link>
-                                <div className='dropdown-content'>
-                                    <Link to="#">Blog with Sidebar</Link>
-                                    <Link to="#">Blog without Sidebar</Link>
-                                </div>
+                                className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >BLOG {'>'}{'>'}</Link>
+                                <ul className='dropdown-content nav-item dropdown-menu'>
+                                    <li><Link to="#">Blog with Sidebar</Link></li>
+                                    <li><Link to="#">Blog without Sidebar</Link></li>
+                                </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link className={`nav-link pages dropbtn ${location.pathname === "/contacto" ? "active" : ""}`} to="/contacto">CONTACTS {'>'}{'>'}</Link>
