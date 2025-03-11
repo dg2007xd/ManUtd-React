@@ -34,7 +34,7 @@ function Header() {
                     <div className="offcanvas-body align-items-center">
                         <ul className="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
                             <li className="nav-item dropdown">
-                                <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`}
+                                <Link role={`button`} aria-expanded={`false`}
                                 className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "/" ? "active" : ""}`} to="/" >HOME</Link>
                                 <ul className='dropdown-content nav-item dropdown-menu'>
                                     <li><Link className='dropdown-item' to="/">Home Club</Link></li>
@@ -45,7 +45,7 @@ function Header() {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`}
+                                <Link role={`button`} aria-expanded={`false`}
                                 className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "/acercadenosotros" ? "active" : ""}`} to="/acercadenosotros" >ABOUT US</Link>
                                 <ul className='dropdown-content nav-item dropdown-menu'>
                                     <li><Link to="/acercadenosotros">About Us</Link></li>
@@ -56,7 +56,7 @@ function Header() {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`} 
+                                <Link role={`button`} aria-expanded={`false`} 
                                 className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >PRODUCTS</Link>
                                 <ul className='dropdown-content nav-item dropdown-menu'>
                                     <li><Link to="#">Shop</Link></li>
@@ -67,7 +67,7 @@ function Header() {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`} 
+                                <Link role={`button`} aria-expanded={`false`} 
                                 className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "#" ? "active" : ""}`} to="#" >BLOG</Link>
                                 <ul className='dropdown-content nav-item dropdown-menu'>
                                     <li><Link to="#">Blog with Sidebar</Link></li>
