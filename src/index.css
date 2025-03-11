@@ -554,3 +554,6 @@ mark {
   color: white;
   background-color: rgba(33, 33, 33, 0.95);
 }
+.offcanvas-body{
+  justify-content: space-around;
+}

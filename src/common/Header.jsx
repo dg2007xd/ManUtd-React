@@ -31,7 +31,7 @@ function Header() {
                         <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
                         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div className="offcanvas-body justify-content-space-around align-items-center">
+                    <div className="offcanvas-body align-items-center">
                         <ul className="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
                             <li className="nav-item dropdown">
                                 <Link role={`button`} data-bs-toggle={`dropdown`} aria-expanded={`false`}
