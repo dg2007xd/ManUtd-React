@@ -19,7 +19,7 @@ function Partidos() {
   const [Equipos, setEquipos] = useState([]);
 
   useEffect(() => {
-    fetch('/components/Equipos.json') 
+    fetch('/Equipos.json') 
       .then(response => response.json())
       .then(data => {
         setEquipos(data);
