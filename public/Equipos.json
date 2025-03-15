@@ -5,7 +5,7 @@
       "diminutivo": "LIV",
       "entrenador": "Arne Slot",
       "estadio": "Anfield",
-      "escudo": "/assets/images/escudo-liverpool.png"
+      "escudo": "/images/escudo-liverpool.png"
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "diminutivo": "ARS",
       "entrenador": "Mikel Arteta",
       "estadio": "Emirates Stadium",
-      "escudo": "/assets/images/escudo-arsenal.png"
+      "escudo": "/images/escudo-arsenal.png"
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "diminutivo": "NFO",
       "entrenador": "Nuno Espírito Santo",
       "estadio": "The City Ground",
-      "escudo": "/assets/images/escudo-forest.png"
+      "escudo": "/images/escudo-forest.png"
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "diminutivo": "CHE",
       "entrenador": "Enzo Maresca",
       "estadio": "Stamford Bridge",
-      "escudo": "/assets/images/escudo-chelsea.png"
+      "escudo": "/images/escudo-chelsea.png"
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "diminutivo": "MCI",
       "entrenador": "Pep Guardiola",
       "estadio": "Etihad Stadium",
-      "escudo": "/assets/images/escudo-city.png"
+      "escudo": "/images/escudo-city.png"
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "diminutivo": "NEW",
       "entrenador": "Eddie Howe",
       "estadio": "St. James' Park",
-      "escudo": "/assets/images/escudo-newcastle.png"
+      "escudo": "/images/escudo-newcastle.png"
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "diminutivo": "BHA",
       "entrenador": "Eddie Howe",
       "estadio": "St. James' Park",
-      "escudo": "/assets/images/escudo-brighton.png"
+      "escudo": "/images/escudo-brighton.png"
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "diminutivo": "AVL",
       "entrenador": "Unai Emery",
       "estadio": "Villa Park",
-      "escudo": "/assets/images/escudo-villa.png"
+      "escudo": "/images/escudo-villa.png"
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "diminutivo": "BOU",
       "entrenador": "Andoni Iraola",
       "estadio": "Vitality Stadium",
-      "escudo": "/assets/images/escudo-bournemouth.png"
+      "escudo": "/images/escudo-bournemouth.png"
     },
     {
       "id": 10,
@@ -77,7 +77,7 @@
       "diminutivo": "FUL",
       "entrenador": "Marco Silva",
       "estadio": "Craven Cottage",
-      "escudo": "/assets/images/escudo-fulham.png"
+      "escudo": "/images/escudo-fulham.png"
     },
     {
       "id": 11,
@@ -85,7 +85,7 @@
       "diminutivo": "CRY",
       "entrenador": "Oliver Glasner",
       "estadio": "Selhurst Park",
-      "escudo": "/assets/images/escudo-palace.png"
+      "escudo": "/images/escudo-palace.png"
     },
     {
       "id": 12,
@@ -93,7 +93,7 @@
       "diminutivo": "BRE",
       "entrenador": "Thomas Frank",
       "estadio": "Brentford Community Stadium",
-      "escudo": "/assets/images/escudo-brentford.png"
+      "escudo": "/images/escudo-brentford.png"
     },
     {
       "id": 13,
@@ -101,7 +101,7 @@
       "diminutivo": "TOT",
       "entrenador": "Ange Postecoglou",
       "estadio": "Tottenham Hotspur Stadium",
-      "escudo": "/assets/images/escudo-tottemham.png"
+      "escudo": "/images/escudo-tottemham.png"
     },
     {
       "id": 14,
@@ -109,7 +109,7 @@
       "diminutivo": "MUN",
       "entrenador": "Ruben Amorim",
       "estadio": "Old Trafford",
-      "escudo": "/assets/images/escudo-united.png"
+      "escudo": "/images/escudo-united.png"
     },
     {
       "id": 15,
@@ -117,7 +117,7 @@
       "diminutivo": "EVE",
       "entrenador": "David Moyes",
       "estadio": "Goodison Park",
-      "escudo": "/assets/images/escudo-everton.png"
+      "escudo": "/images/escudo-everton.png"
     },
     {
       "id": 16,
@@ -125,7 +125,7 @@
       "diminutivo": "WHU",
       "entrenador": "Graham Potter",
       "estadio": "Estadio Olímpico de Londres",
-      "escudo": "/assets/images/escudo-westham.png"
+      "escudo": "/images/escudo-westham.png"
     },
     {
       "id": 17,
@@ -133,7 +133,7 @@
       "diminutivo": "WOL",
       "entrenador": "Vítor Pereira",
       "estadio": "Molineux Stadium",
-      "escudo": "/assets/images/escudo-wolves.png"
+      "escudo": "/images/escudo-wolves.png"
     },
     {
       "id": 18,
@@ -141,7 +141,7 @@
       "diminutivo": "IPS",
       "entrenador": "Kieran McKenna",
       "estadio": "Portman Road",
-      "escudo": "/assets/images/escudo-ipswich.png"
+      "escudo": "/images/escudo-ipswich.png"
     },
     {
       "id": 19,
@@ -149,7 +149,7 @@
       "diminutivo": "LEI",
       "entrenador": "Ruud van Nistelrooy",
       "estadio": "King Power Stadium",
-      "escudo": "/assets/images/escudo-leicester.png"
+      "escudo": "/images/escudo-leicester.png"
     },
     {
       "id": 20,
@@ -157,7 +157,7 @@
       "diminutivo": "SOU",
       "entrenador": "Ivan Jurić",
       "estadio": "St Mary's Stadium",
-      "escudo": "/assets/images/escudo-south.png"
+      "escudo": "/images/escudo-south.png"
     }
     
     

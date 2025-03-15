@@ -19,7 +19,7 @@ function Partidos() {
   const [Equipos, setEquipos] = useState([]);
 
   useEffect(() => {
-    fetch("Equipos.json") // Reemplaza con la ruta real
+    fetch('/Equipos.json') 
       .then(response => response.json())
       .then(data => {
         setEquipos(data);
@@ -27,7 +27,7 @@ function Partidos() {
   }, []);
 
 
-  
+
   return (
     <main className='main-partido'>
       <section className=' padded partido' >
