@@ -27,6 +27,7 @@ function Partidos() {
   }, []);
 
 
+  
   return (
     <main className='main-partido'>
       <section className=' padded partido' >
