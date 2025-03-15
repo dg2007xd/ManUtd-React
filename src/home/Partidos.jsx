@@ -1,4 +1,4 @@
-
+import { useState, useEffect } from 'react';
 import logo1 from '../assets/images/logo1.png';
 import logo2 from '../assets/images/logo2.png';
 import logo3 from '../assets/images/logo3.png'
@@ -13,7 +13,20 @@ import derbi from '../assets/images/derbi.jpg'
 import promesas from '../assets/images/promesas.jpg'
 
 
+
 function Partidos() {
+
+  const [Equipos, setEquipos] = useState([]);
+
+  useEffect(() => {
+    fetch("Equipos.json") // Reemplaza con la ruta real
+      .then(response => response.json())
+      .then(data => {
+        setEquipos(data);
+      });
+  }, []);
+
+
   return (
     <main className='main-partido'>
       <section className=' padded partido' >
@@ -104,7 +117,7 @@ function Partidos() {
               </div>
             </div>
 
-            <div className="col cuadros container text-center justify-content-center ms-2 me-2">
+            <div className="col cuadros container text-center justify-content-center ms-2 me-2 wa">
               <div className="row">
                 <div className="col team">
                   <h4 className='col'>
@@ -215,27 +228,148 @@ function Partidos() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr><td className='table-primary'>1</td><td>LIVERPOOL</td><td>27</td><td>19</td><td>7</td><td>1</td><td>64</td><td>64</td></tr>
-                  <tr><td className='table-primary'>2</td><td>ARSENAL</td><td>26</td><td>15</td><td>8</td><td>3</td><td>51</td><td>53</td></tr>
-                  <tr><td className='table-primary'>3</td><td>NOTTINGHAM FOREST</td><td>26</td><td>14</td><td>5</td><td>7</td><td>44</td><td>47</td></tr>
-                  <tr><td className='table-primary'>4</td><td>MANCHESTER CITY</td><td>26</td><td>13</td><td>5</td><td>8</td><td>52</td><td>44</td></tr>
-                  <tr><td className='table-warning'>5</td><td>NEWCASTLE</td><td>26</td><td>13</td><td>5</td><td>8</td><td>46</td><td>44</td></tr>
-                  <tr><td>6</td><td>BOURNEMOUTH</td><td>26</td><td>12</td><td>7</td><td>7</td><td>44</td><td>43</td></tr>
-                  <tr><td>7</td><td>CHELSEA</td><td>26</td><td>12</td><td>7</td><td>7</td><td>48</td><td>43</td></tr>
-                  <tr><td>8</td><td>ASTON VILLA</td><td>27</td><td>11</td><td>9</td><td>7</td><td>39</td><td>42</td></tr>
-                  <tr><td>9</td><td>BRIGHTON</td><td>26</td><td>10</td><td>10</td><td>6</td><td>42</td><td>40</td></tr>
-                  <tr><td>10</td><td>FULHAM</td><td>26</td><td>10</td><td>9</td><td>7</td><td>38</td><td>39</td></tr>
-                  <tr><td>11</td><td>BRENTFORD</td><td>26</td><td>11</td><td>4</td><td>11</td><td>47</td><td>37</td></tr>
-                  <tr><td>12</td><td>TOTTENHAM</td><td>26</td><td>10</td><td>3</td><td>13</td><td>53</td><td>33</td></tr>
-                  <tr><td>13</td><td>CRYSTAL PALACE</td><td>26</td><td>8</td><td>9</td><td>9</td><td>31</td><td>33</td></tr>
-                  <tr><td>14</td><td>EVERTON</td><td>26</td><td>7</td><td>10</td><td>9</td><td>29</td><td>31</td></tr>
-                  <tr><td>15</td><td>MANCHESTER UNITED</td><td>26</td><td>8</td><td>6</td><td>12</td><td>30</td><td>30</td></tr>
-                  <tr><td>26</td><td>WEST HAM</td><td>26</td><td>8</td><td>6</td><td>12</td><td>30</td><td>30</td></tr>
-                  <tr><td>17</td><td>WOLVES</td><td>26</td><td>6</td><td>4</td><td>16</td><td>36</td><td>22</td></tr>
-                  <tr><td className='table-danger'>18</td><td>IPSWICH</td><td>26</td><td>3</td><td>8</td><td>15</td><td>24</td><td>17</td></tr>
-                  <tr><td className='table-danger'>19</td><td>LEICESTER CITY</td><td>26</td><td>4</td><td>5</td><td>17</td><td>25</td><td>17</td></tr>
-                  <tr><td className='table-danger'>20</td><td>SOUTHAMPTON</td><td>26</td><td>2</td><td>3</td><td>21</td><td>19</td><td>9</td></tr>
-                  
+                  {Equipos.filter(team => team.id === 1).map((team) => (
+                    <tr key={team.id}>
+                      <td className='table-primary'>1</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>27</td><td>19</td><td>7</td><td>1</td><td>64</td><td><b>64</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 2).map((team) => (
+                    <tr key={team.id}>
+                      <td className='table-primary'>2</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>15</td><td>8</td><td>3</td><td>51</td><td><b>53</b></td>
+                    </tr>
+                  ))}
+
+
+                  {Equipos.filter(team => team.id === 3).map((team) => (
+                    <tr key={team.id}>
+                      <td className='table-primary'>3</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>14</td><td>5</td><td>7</td><td>44</td><td><b>47</b></td>
+                    </tr>
+                  ))}
+
+
+                  {Equipos.filter(team => team.id === 4).map((team) => (
+                    <tr key={team.id}>
+                      <td className='table-primary'>4</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>13</td><td>5</td><td>8</td><td>52</td><td><b>44</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 5).map((team) => (
+                    <tr key={team.id}>
+                      <td className='table-warning'>5</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>13</td><td>5</td><td>8</td><td>46</td><td><b>44</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 6).map((team) => (
+                    <tr key={team.id}>
+                      <td>6</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>12</td><td>7</td><td>7</td><td>44</td><td><b>43</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 7).map((team) => (
+                    <tr key={team.id}>
+                      <td>7</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>12</td><td>7</td><td>7</td><td>48</td><td><b>43</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 8).map((team) => (
+                    <tr key={team.id}>
+                      <td>8</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>27</td><td>11</td><td>9</td><td>7</td><td>39</td><td><b>42</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 9).map((team) => (
+                    <tr key={team.id}>
+                      <td>9</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>10</td><td>10</td><td>6</td><td>42</td><td><b>40</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 10).map((team) => (
+                    <tr key={team.id}>
+                      <td>10</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>10</td><td>9</td><td>7</td><td>38</td><td><b>39</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 11).map((team) => (
+                    <tr key={team.id}>
+                      <td>11</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>11</td><td>4</td><td>11</td><td>47</td><td><b>37</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 12).map((team) => (
+                    <tr key={team.id}>
+                      <td>12</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>10</td><td>3</td><td>13</td><td>53</td><td><b>33</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 13).map((team) => (
+                    <tr key={team.id}>
+                      <td>13</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>8</td><td>9</td><td>9</td><td>31</td><td><b>33</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 14).map((team) => (
+                    <tr key={team.id}>
+                      <td>14</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>7</td><td>10</td><td>9</td><td>29</td><td><b>31</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 15).map((team) => (
+                    <tr key={team.id}>
+                      <td>15</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>8</td><td>6</td><td>12</td><td>30</td><td><b>30</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 16).map((team) => (
+                    <tr key={team.id}>
+                      <td>26</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>8</td><td>6</td><td>12</td><td>30</td><td><b>30</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 17).map((team) => (
+                    <tr key={team.id}>
+                      <td>17</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>6</td><td>4</td><td>16</td><td>36</td><td><b>22</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 18).map((team) => (
+                    <tr key={team.id}>
+                      <td className='table-danger'>18</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>3</td><td>8</td><td>15</td><td>24</td><td><b>17</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 19).map((team) => (
+                    <tr key={team.id}>
+                      <td className='table-danger'>19</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>4</td><td>5</td><td>17</td><td>25</td><td><b>17</b></td>
+                    </tr>
+                  ))}
+
+                  {Equipos.filter(team => team.id === 20).map((team) => (
+                    <tr key={team.id}>
+                      <td className='table-danger'>20</td><td><img src={team.escudo} alt={team.nombre} width="20" height="20" />{team.nombre}</td>
+                      <td>26</td><td>2</td><td>3</td><td>21</td><td>19</td><td><b>9</b></td>
+                    </tr>
+                  ))}
+
                 </tbody>
               </table>
             </div>
@@ -247,4 +381,4 @@ function Partidos() {
   )
 }
 
-export default Partidos
+export default Partidos;

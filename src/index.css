@@ -103,7 +103,7 @@ h3 {
   font-size: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .banners {
     max-height: 800px;
     filter: brightness(60%);
@@ -165,6 +165,12 @@ h3 {
     background-color: rgba(61, 60, 60, 0.95) !important;
     font-family: "Urbanist", serif;
     color: white !important;
+  }
+  .small-news{
+    text-align: center;
+  }
+  .wa{
+    margin-top: 10px;
   }
 }
 
