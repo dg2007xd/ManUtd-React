@@ -49,7 +49,7 @@ function Header() {
                                 className={`nav-link pages dropdown-toggle dropbtn ${location.pathname === "/acercadenosotros" ? "active" : ""}`} to="/acercadenosotros" >ABOUT US</Link>
                                 <ul className='dropdown-content nav-item dropdown-menu'>
                                     <li><Link to="/acercadenosotros">About Us</Link></li>
-                                    <li><Link to="#">Our Team</Link></li>
+                                    <li><Link to="/equipo">Our Team</Link></li>
                                     <li><Link to="#">Testimonials</Link></li>
                                     <li><Link to="#">FAQ</Link></li>
                                     <li><Link to="#">Gallery</Link></li>

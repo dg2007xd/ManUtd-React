@@ -8,6 +8,7 @@ import Clientes from './pages/Clientes'
 import AcercadeNosotros from './pages/AcercadeNosotros'
 import Contacto from './pages/Contacto'
 import MiCuenta from './pages/MiCuenta'
+import Equipo from './pages/Equipo'
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/acercadenosotros" element={<AcercadeNosotros />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/micuenta" element={<MiCuenta />} />
+            <Route path="/equipo" element={<Equipo />} />
         
           </Routes>
         </main>

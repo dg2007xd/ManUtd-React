@@ -1,0 +1,198 @@
+[
+    {
+        "posicion": "Arquero",
+        "nombre": "André Onana",
+        "dorsal": 24,
+        "imagen": "/img/24_Andre_Onana.jpg"
+    },
+    {
+        "posicion": "Arquero",
+        "nombre": "Altay Bayindir",
+        "dorsal": 1,
+        "imagen": "/img/1_Altay_Bayindir.jpg"
+    },
+    {
+        "posicion": "Arquero",
+        "nombre": "Tom Heaton",
+        "dorsal": 22,
+        "imagen": "/img/22_Tom_Heaton.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Lisandro Martínez",
+        "dorsal": 6,
+        "imagen": "/img/6_Lisandro_Martinez.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Matthijs De Ligt",
+        "dorsal": 4,
+        "imagen": "/img/4_Matthijs_De_Ligt.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Diogo Dalot",
+        "dorsal": 20,
+        "imagen": "/img/20_Diogo_Dalot.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Victor Lindelof",
+        "dorsal": 2,
+        "imagen": "/img/2_Victor_Lindelof.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Noussair Mazraoui",
+        "dorsal": 3,
+        "imagen": "/img/3_Noussair_Mazraoui.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Harry Maguire",
+        "dorsal": 5,
+        "imagen": "/img/5_Harry_Maguire.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Tyrell Malacia",
+        "dorsal": 12,
+        "imagen": "/img/12_Tyrell_Malacia.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Patrick Dorgu",
+        "dorsal": 13,
+        "imagen": "/img/13_Patrick_Dorgu.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Leny Yoro",
+        "dorsal": 15,
+        "imagen": "/img/15_Leny_Yoro.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Luke Shaw",
+        "dorsal": 23,
+        "imagen": "/img/23_Luke_Shaw.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Ayden Heaven",
+        "dorsal": 26,
+        "imagen": "/img/26_Ayden_Heaven.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Jonny Evans",
+        "dorsal": 35,
+        "imagen": "/img/35_Jonny_Evans.jpg"
+    },
+    {
+        "posicion": "Defensa",
+        "nombre": "Harry Amass",
+        "dorsal": 41,
+        "imagen": "/img/41_Harry_Amass.jpg"
+    },
+
+
+    {
+        "posicion": "Centrocampista",
+        "nombre": "Bruno Fernandes",
+        "dorsal": 8,
+        "imagen": "/img/8_Bruno_Fernandes.jpg"
+    },
+    {
+        "posicion": "Centrocampista",
+        "nombre": "Casemiro",
+        "dorsal": 18,
+        "imagen": "/img/18_Casemiro.jpg"
+    },
+    {
+        "posicion": "Centrocampista",
+        "nombre": "Christian Eriksen",
+        "dorsal": 14,
+        "imagen": "/img/14_Christian_Eriksen.jpg"
+    },
+    {
+        "posicion": "Centrocampista",
+        "nombre": "Manuel Ugarte",
+        "dorsal": 25,
+        "imagen": "/img/25_Manuel_Ugarte.jpg"
+    },
+    {
+        "posicion": "Centrocampista",
+        "nombre": "Kobbie Mainoo",
+        "dorsal": 37,
+        "imagen": "/img/37_Kobbie_Mainoo.jpg"
+    },
+    {
+        "posicion": "Centrocampista",
+        "nombre": "Toby Collyer",
+        "dorsal": 43,
+        "imagen": "/img/43_Toby_Collyer.jpg"
+    },
+    {
+        "posicion": "Centrocampista",
+        "nombre": "Daniel Gore",
+        "dorsal": 44,
+        "imagen": "/img/44_Daniel_Gore.jpg"
+    },
+    {
+        "posicion": "Centrocampista",
+        "nombre": "Mason Mount",
+        "dorsal": 7,
+        "imagen": "/img/7_Mason_Mount.jpg"
+    },
+
+
+    {
+        "posicion": "Delantero",
+        "nombre": "Joshua Zirkzee",
+        "dorsal": 11,
+        "imagen": "/img/11_Joshua_Zirkzee.jpg"
+    },
+    {
+        "posicion": "Delantero",
+        "nombre": "Marcus Rashford",
+        "dorsal": 10,
+        "imagen": "/img/10_Marcus_Rashford.jpg"
+    },
+    {
+        "posicion": "Delantero",
+        "nombre": "Rasmus Hojlund",
+        "dorsal": 9,
+        "imagen": "/img/9_Rasmus_Hojlund.jpg"
+    },
+    {
+        "posicion": "Delantero",
+        "nombre": "Amad Diallo",
+        "dorsal": 16,
+        "imagen": "/img/16_Amad.jpg"
+    },
+    {
+        "posicion": "Delantero",
+        "nombre": "Alejandro Garnacho",
+        "dorsal": 17,
+        "imagen": "/img/17_Alejandro_Garnacho.jpg"
+    },
+    {
+        "posicion": "Delantero",
+        "nombre": "Antony",
+        "dorsal": 21,
+        "imagen": "/img/21_Antony.jpg"
+    },
+    {
+        "posicion": "Delantero",
+        "nombre": "Ethan Wheatley",
+        "dorsal": 36,
+        "imagen": "/img/36_Ethan_Wheatley.jpg"
+    },
+    {
+        "posicion": "Delantero",
+        "nombre": "Jadon Sancho",
+        "dorsal": 19,
+        "imagen": "/img/Jadon_Sancho.jpg"
+    }
+]
