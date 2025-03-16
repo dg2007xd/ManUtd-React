@@ -8,10 +8,10 @@ function Equipo() {
     const [players, setPlayers] = useState([]);
 
     useEffect(() => {
-        fetch("/Plantilla.json") // Reemplaza con la URL real del JSON
+        fetch("/Plantilla.json") 
             .then((response) => response.json())
             .then((data) => {
-                const sortedPlayers = data.sort((a, b) => a.dorsal - b.dorsal);
+                const sortedPlayers = data.sort((a, b) => (a.dorsal || 999) - (b.dorsal || 999));
                 setPlayers(sortedPlayers);
             })
             .catch((error) => console.error("Error cargando los datos:", error));

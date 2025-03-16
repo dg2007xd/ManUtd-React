@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 import Footer from './common/Footer'
+import Boton from './common/Boton'
 import Header from './common/Header'
 import Inicio from './pages/Inicio'
 import Clientes from './pages/Clientes'
@@ -29,6 +30,7 @@ function App() {
         
           </Routes>
         </main>
+        <Boton />
         <Footer />
       </BrowserRouter>
     </>

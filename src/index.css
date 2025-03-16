@@ -182,6 +182,18 @@ h3 {
   .nombres{
     font-size: 25px !important;
   }
+  .go-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 13px !important;
+  }
+  .go-top img {
+    width: 25px !important;
+    height: 25px !important;
+  }
 }
 
 .banners2 {
@@ -663,4 +675,33 @@ mark {
   background: linear-gradient(178deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.9) 85%);
   box-shadow: 5px 10px 10px black;
   z-index: 1;
+}
+.go-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background-color: #C52221;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
+}
+.go-top:hover{
+  background-color: white;
+  color: black;
+  
+}
+.go-top img {
+  color: white;
+  width: 30px;
+  height: 30px;
 }

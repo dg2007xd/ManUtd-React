@@ -192,7 +192,7 @@
     {
         "posicion": "Delantero",
         "nombre": "Jadon Sancho",
-        "dorsal": 19,
+        "dorsal": null,
         "imagen": "/img/Jadon_Sancho.jpg"
     }
 ]

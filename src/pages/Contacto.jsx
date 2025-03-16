@@ -19,25 +19,25 @@ function Contacto() {
                 <div className="row justify-content-evenly">
                     <div className="col-3">
                         <i className="bi bi-geo-alt display-5 text-danger"></i>
-                        <h3 className="fw-bold">LOCATION</h3>
+                        <h3>LOCATION</h3>
                         <p className='text-simple'>Sir Matt Busby Way,<br />987597-50</p>
                     </div>
 
                     <div className="col-3">
                         <i className="bi bi-telephone display-5 text-danger"></i>
-                        <h3 className="fw-bold">PHONES</h3>
+                        <h3>PHONES</h3>
                         <p className='text-simple'>44 161 676 7770<br />44 161 868 8001</p>
                     </div>
 
                     <div className="col-3">
                         <i className="bi bi-envelope display-5 text-danger"></i>
-                        <h3 className="fw-bold">EMAIL</h3>
+                        <h3>EMAIL</h3>
                         <p className='text-simple'>sale@like-themes.com<br />tech@like-themes.com</p>
                     </div>
 
                     <div className="col-3">
                         <i className="bi bi-clock display-5 text-danger"></i>
-                        <h3 className="fw-bold">WORKING HOURS</h3>
+                        <h3>WORKING HOURS</h3>
                         <p className='text-simple'>Wednesday - Sunday<br />7:00 AM - 5:00 PM</p>
                     </div>
                 </div>
