@@ -5,7 +5,13 @@
       "diminutivo": "LIV",
       "entrenador": "Arne Slot",
       "estadio": "Anfield",
-      "escudo": "/img/escudo-liverpool.png"
+      "escudo": "/img/escudo-liverpool.png",
+      "jpartidos": 29,
+      "ganados": 21,
+      "empatados": 7,
+      "perdidos": 1,
+      "golesafavor": 69,
+      "puntos": 70
     },
     {
       "id": 2,
@@ -13,7 +19,13 @@
       "diminutivo": "ARS",
       "entrenador": "Mikel Arteta",
       "estadio": "Emirates Stadium",
-      "escudo": "/img/escudo-arsenal.png"
+      "escudo": "/img/escudo-arsenal.png",
+      "jpartidos": 28,
+      "ganados": 15,
+      "empatados": 10,
+      "perdidos": 3,
+      "golesafavor": 52,
+      "puntos": 55
     },
     {
       "id": 3,
@@ -21,7 +33,13 @@
       "diminutivo": "NFO",
       "entrenador": "Nuno Espírito Santo",
       "estadio": "The City Ground",
-      "escudo": "/img/escudo-forest.png"
+      "escudo": "/img/escudo-forest.png",
+      "jpartidos": 29,
+      "ganados": 16,
+      "empatados": 6,
+      "perdidos": 7,
+      "golesafavor": 49,
+      "puntos": 54
     },
     {
       "id": 4,
@@ -29,7 +47,13 @@
       "diminutivo": "CHE",
       "entrenador": "Enzo Maresca",
       "estadio": "Stamford Bridge",
-      "escudo": "/img/escudo-chelsea.png"
+      "escudo": "/img/escudo-chelsea.png",
+      "jpartidos": 28,
+      "ganados": 14,
+      "empatados": 7,
+      "perdidos": 7,
+      "golesafavor": 53,
+      "puntos": 49
     },
     {
       "id": 5,
@@ -37,7 +61,13 @@
       "diminutivo": "MCI",
       "entrenador": "Pep Guardiola",
       "estadio": "Etihad Stadium",
-      "escudo": "/img/escudo-city.png"
+      "escudo": "/img/escudo-city.png",
+      "jpartidos": 29,
+      "ganados": 14,
+      "empatados": 6,
+      "perdidos": 9,
+      "golesafavor": 55,
+      "puntos": 48
     },
     {
       "id": 6,
@@ -45,7 +75,13 @@
       "diminutivo": "NEW",
       "entrenador": "Eddie Howe",
       "estadio": "St. James' Park",
-      "escudo": "/img/escudo-newcastle.png"
+      "escudo": "/img/escudo-newcastle.png",
+      "jpartidos": 28,
+      "ganados": 14,
+      "empatados": 5,
+      "perdidos": 9,
+      "golesafavor": 47,
+      "puntos": 47
     },
     {
       "id": 7,
@@ -53,7 +89,13 @@
       "diminutivo": "BHA",
       "entrenador": "Eddie Howe",
       "estadio": "St. James' Park",
-      "escudo": "/img/escudo-brighton.png"
+      "escudo": "/img/escudo-brighton.png",
+      "jpartidos": 29,
+      "ganados": 12,
+      "empatados": 11,
+      "perdidos": 6,
+      "golesafavor": 48,
+      "puntos": 47
     },
     {
       "id": 8,
@@ -61,7 +103,13 @@
       "diminutivo": "AVL",
       "entrenador": "Unai Emery",
       "estadio": "Villa Park",
-      "escudo": "/img/escudo-villa.png"
+      "escudo": "/img/escudo-villa.png",
+      "jpartidos": 29,
+      "ganados": 12,
+      "empatados": 9,
+      "perdidos": 8,
+      "golesafavor": 41,
+      "puntos": 45
     },
     {
       "id": 9,
@@ -69,7 +117,13 @@
       "diminutivo": "BOU",
       "entrenador": "Andoni Iraola",
       "estadio": "Vitality Stadium",
-      "escudo": "/img/escudo-bournemouth.png"
+      "escudo": "/img/escudo-bournemouth.png",
+      "jpartidos": 29,
+      "ganados": 12,
+      "empatados": 8,
+      "perdidos": 9,
+      "golesafavor": 48,
+      "puntos": 44
     },
     {
       "id": 10,
@@ -77,23 +131,41 @@
       "diminutivo": "FUL",
       "entrenador": "Marco Silva",
       "estadio": "Craven Cottage",
-      "escudo": "/img/escudo-fulham.png"
+      "escudo": "/img/escudo-fulham.png",
+      "jpartidos": 28,
+      "ganados": 11,
+      "empatados": 9,
+      "perdidos": 8,
+      "golesafavor": 41,
+      "puntos": 42
     },
     {
       "id": 11,
-      "nombre": "CRYSTAL PALACE",
-      "diminutivo": "CRY",
-      "entrenador": "Oliver Glasner",
-      "estadio": "Selhurst Park",
-      "escudo": "/img/escudo-palace.png"
-    },
-    {
-      "id": 12,
       "nombre": "BRENTFORD",
       "diminutivo": "BRE",
       "entrenador": "Thomas Frank",
       "estadio": "Brentford Community Stadium",
-      "escudo": "/img/escudo-brentford.png"
+      "escudo": "/img/escudo-brentford.png",
+      "jpartidos": 29,
+      "ganados": 12,
+      "empatados": 5,
+      "perdidos": 12,
+      "golesafavor": 50,
+      "puntos": 41
+    },
+    {
+      "id": 12,
+      "nombre": "CRYSTAL PALACE",
+      "diminutivo": "CRY",
+      "entrenador": "Oliver Glasner",
+      "estadio": "Selhurst Park",
+      "escudo": "/img/escudo-palace.png",
+      "jpartidos": 28,
+      "ganados": 10,
+      "empatados": 9,
+      "perdidos": 9,
+      "golesafavor": 36,
+      "puntos": 39
     },
     {
       "id": 13,
@@ -101,23 +173,41 @@
       "diminutivo": "TOT",
       "entrenador": "Ange Postecoglou",
       "estadio": "Tottenham Hotspur Stadium",
-      "escudo": "/img/escudo-tottemham.png"
+      "escudo": "/img/escudo-tottemham.png",
+      "jpartidos": 28,
+      "ganados": 10,
+      "empatados": 4,
+      "perdidos": 14,
+      "golesafavor": 55,
+      "puntos": 34
     },
     {
       "id": 14,
-      "nombre": "MANCHESTER UNITED",
-      "diminutivo": "MUN",
-      "entrenador": "Ruben Amorim",
-      "estadio": "Old Trafford",
-      "escudo": "/img/escudo-united.png"
-    },
-    {
-      "id": 15,
       "nombre": "EVERTON",
       "diminutivo": "EVE",
       "entrenador": "David Moyes",
       "estadio": "Goodison Park",
-      "escudo": "/img/escudo-everton.png"
+      "escudo": "/img/escudo-everton.png",
+      "jpartidos": 29,
+      "ganados": 7,
+      "empatados": 13,
+      "perdidos": 9,
+      "golesafavor": 32,
+      "puntos": 34
+    },
+    {
+      "id": 15,
+      "nombre": "MANCHESTER UNITED",
+      "diminutivo": "MUN",
+      "entrenador": "Ruben Amorim",
+      "estadio": "Old Trafford",
+      "escudo": "/img/escudo-united.png",
+      "jpartidos": 28,
+      "ganados": 9,
+      "empatados": 7,
+      "perdidos": 12,
+      "golesafavor": 34,
+      "puntos": 34
     },
     {
       "id": 16,
@@ -125,7 +215,13 @@
       "diminutivo": "WHU",
       "entrenador": "Graham Potter",
       "estadio": "Estadio Olímpico de Londres",
-      "escudo": "/img/escudo-westham.png"
+      "escudo": "/img/escudo-westham.png",
+      "jpartidos": 29,
+      "ganados": 9,
+      "empatados": 7,
+      "perdidos": 13,
+      "golesafavor": 33,
+      "puntos": 34
     },
     {
       "id": 17,
@@ -133,7 +229,13 @@
       "diminutivo": "WOL",
       "entrenador": "Vítor Pereira",
       "estadio": "Molineux Stadium",
-      "escudo": "/img/escudo-wolves.png"
+      "escudo": "/img/escudo-wolves.png",
+      "jpartidos": 29,
+      "ganados": 7,
+      "empatados": 5,
+      "perdidos": 17,
+      "golesafavor": 40,
+      "puntos": 26
     },
     {
       "id": 18,
@@ -141,7 +243,13 @@
       "diminutivo": "IPS",
       "entrenador": "Kieran McKenna",
       "estadio": "Portman Road",
-      "escudo": "/img/escudo-ipswich.png"
+      "escudo": "/img/escudo-ipswich.png",
+      "jpartidos": 29,
+      "ganados": 3,
+      "empatados": 8,
+      "perdidos": 18,
+      "golesafavor": 28,
+      "puntos": 17
     },
     {
       "id": 19,
@@ -149,7 +257,13 @@
       "diminutivo": "LEI",
       "entrenador": "Ruud van Nistelrooy",
       "estadio": "King Power Stadium",
-      "escudo": "/img/escudo-leicester.png"
+      "escudo": "/img/escudo-leicester.png",
+      "jpartidos": 28,
+      "ganados": 4,
+      "empatados": 5,
+      "perdidos": 19,
+      "golesafavor": 25,
+      "puntos": 17
     },
     {
       "id": 20,
@@ -157,7 +271,13 @@
       "diminutivo": "SOU",
       "entrenador": "Ivan Jurić",
       "estadio": "St Mary's Stadium",
-      "escudo": "/img/escudo-south.png"
+      "escudo": "/img/escudo-south.png",
+      "jpartidos": 29,
+      "ganados": 2,
+      "empatados": 3,
+      "perdidos": 24,
+      "golesafavor": 21,
+      "puntos": 9
     }
     
     

@@ -77,7 +77,7 @@ h3 {
 .icono {
   color: white;
   padding-left: 30px;
-  size: 90px;
+  font-size: 20px;
 }
 
 .icono:hover {
@@ -137,6 +137,7 @@ h3 {
     font-size: 50px !important;
     font-family: "Bebas Neue", serif !important;
     font-weight: 400 !important;
+    max-height: 5rem !important;
   }
 
   .banners2 {
@@ -191,6 +192,7 @@ h3 {
   font-size: 50px;
   font-family: "Bebas Neue", serif;
   font-weight: 400;
+  max-height: 5rem;
 }
 
 .carousel-text h2 {
@@ -216,6 +218,11 @@ mark {
   font-size: 20px;
   line-height: 50px;
   max-height: 52px;
+  transition: background 0.3s;
+}
+.boton:hover{
+  background-color: #000;
+  
 }
 
 .partido {
@@ -272,7 +279,7 @@ mark {
 
 .dropbtn {
   color: white;
-  font-size: 16px;
+  font-size: 19px;
   border: none;
 }
 
@@ -416,6 +423,9 @@ mark {
   margin-left: -270px;
   margin-inline-start: -270px;
   margin-inline-end: 0;
+  position: absolute;
+  top: 200%;
+  right: 45%;
 }
 
 .nav-link.active {
@@ -562,4 +572,47 @@ mark {
 }
 .offcanvas-body{
   justify-content: space-around;
+}
+.table-recurso{
+  background-color: #313035 !important;
+  color: whitesmoke !important;
+}
+.table-champions{
+  background-color: #4284F5 !important;
+}
+.table-europa{
+  background-color: #FA7A17 !important;
+}
+.table-descenso{
+  background-color: #EA4235 !important;
+}
+.texto-camp{
+  padding: 40px 6rem;
+}
+#texto-arena{
+  margin: 0;
+}
+.text-muted{
+  font-family: "Calibri", serif;
+}
+.amorim{
+  background-image: url(../src/assets/images/amorim.jpg);
+  background-size: cover;
+}
+.dt-banner{
+  background-color: #C52221;
+}
+.dt-text{
+  color: #222322;
+  margin-bottom: 0;
+}
+.sect1{
+  padding: 2rem 6rem;
+  max-width: 45rem;
+}
+.firma{
+  max-width: 10rem;
+}
+.dt-info{
+  max-width: 10rem;
 }

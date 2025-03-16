@@ -6,6 +6,8 @@ import premier from '../assets/images/premiercup.png'
 import clubworld from '../assets/images/clubworldcup.png'
 import fa from '../assets/images/facup.png'
 import estadio from '../assets/images/estadiofake.png'
+import amorim from '../assets/images/amorim.jpg'
+import firma from '../assets/images/firma.png'
 
 function AcercadeNosotros() {
     return (
@@ -14,7 +16,7 @@ function AcercadeNosotros() {
             <div className='carousel-text d-block'>
                 <h2 className='texto-banner'><b>ACERCA DE NOSOTROS</b></h2>
                 <div className='d-flex col justify-content-center'>
-                    <p className='texto-corto'>HOME | </p> 
+                    <p className='texto-corto'>HOME | </p>
                     <p className='texto-corto2'>ACERCA DE NOSOTROS</p>
                 </div>
             </div>
@@ -58,27 +60,53 @@ function AcercadeNosotros() {
                 </div>
             </div>
 
-            <div className="container-fluid hero-section padded">
+            <div className="container-fluid hero-section padded text-start">
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className="row ">
 
-                        <div className="col-md-6">
+                        <div className="col-md-6 texto-camp">
                             <span className="champions-text">CHAMPIONS</span>
-                            <p className="text-danger fw-bold small-text">WELCOME TO ARENA</p>
+                            <p id='texto-arena' className="text-danger fw-bold small-text">WELCOME TO ARENA</p>
                             <h2 className="fw-bold">WE HAVE A WINNING SPIRIT WITH 45 YEAR OF CUP AND LEAGUE HISTORY</h2>
                             <p className="text-muted">
                                 The impact of a football mentor transcends the game itself. Players often see their coaches as mentors and role models. The lessons learned on the field translate into valuable life skills.
                             </p>
-                            <button className="btn btn-danger">READ MORE →</button>
+
+                            <button type='button' className='boton mt-5'>
+                                <p>READ MORE →</p>
+                            </button>
                         </div>
 
 
                         <div className="col-md-6 text-center">
-                            <img src={estadio} alt="Football Stadium" className="stadiofake"/>
+                            <img src={estadio} alt="Football Stadium" className="stadiofake" />
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div className="contenedor-fluid text-white d-flex dt-banner row text-start">
+
+                <div className="col sect1 justify-content-center align-items-center">
+                    <h2 className="fw-bold display-4 mt-5">
+                        "THE SECRET OF VICTORY IS SIMPLE: WORK, DISCIPLINE AND UNSHAKABLE FAITH IN ONE’S STRENGTH"
+                    </h2>
+                    <div className='row mt-5'>
+                        <div className='col dt-info'>
+                            <p className="fw-semibold mt-3 dt-text fs-4">RUBEN AMORIM</p>
+                            <p className="text-uppercase small dt-text fs-5">General Coach</p>
+                        </div>
+                        
+                        <img src={firma} alt="Firma" className="col mt-3 firma img-fluid" />
+
+                    </div>
+                    
+                    
+                </div>
+                <img src={amorim} width={67} alt="" className='col d-flex img-fluid' />
+            </div>
+
+
         </div>
     )
 }

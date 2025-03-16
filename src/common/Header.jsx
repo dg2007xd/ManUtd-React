@@ -80,14 +80,14 @@ function Header() {
                         </ul>
                         <ul className="navbar-nav">
                             <li>
-                                <Link className={`icono ${location.pathname === "/micuenta" ? "active" : ""}`} to="/micuenta">
+                                <Link className={`ms-2 me-2 nav-link icono ${location.pathname === "/micuenta" ? "active" : ""}`} to="/micuenta">
                                     <i className="bi bi-person-circle"></i>
                                 </Link>
                             </li>
-                            <li className='icono'>
+                            <li className='ms-2 me-2 nav-link icono'>
                                 <i className="bi bi-bag"></i>
                             </li>
-                            <li className='icono' onClick={() => setSearchVisible(!searchVisible)}>
+                            <li className='ms-2 me-2 nav-link icono' onClick={() => setSearchVisible(!searchVisible)}>
                                 <i className="bi bi-search"></i>
                             </li>
                         </ul>
