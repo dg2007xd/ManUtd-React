@@ -19,7 +19,7 @@ function Partidos() {
   const [Equipos, setEquipos] = useState([]);
 
   useEffect(() => {
-    fetch('/Equipos.json') 
+    fetch('/Equipos.json')
       .then(response => response.json())
       .then(data => {
         setEquipos(data);
@@ -35,11 +35,13 @@ function Partidos() {
           <div className="row justify-content-center">
             <div className="col-md-9 match text-align-center">
               <h3 className="texto-partido d-flex justify-content-center ">SIGUIENTE PARTIDO</h3>
-              <img className='img-fluid d-inline-flex logo-club' src={logo1} alt="" />
-              <h2 className='texto-clubs d-inline-flex'>MANCHESTER UNITED</h2>
-              <h2 className='display-5 d-inline-flex simbolos'><b>- : -</b> </h2>
-              <h2 className='texto-clubs d-inline-flex'>LEICESTER CITY</h2>
-              <img className='img-fluid d-inline-flex logo-club' src={logo2} alt="" />
+              <div className='sig-match'>
+                <img className='img-fluid d-inline-flex logo-club' src={logo1} alt="" />
+                <h2 className='texto-clubs display-5 d-inline-flex'>MANCHESTER UNITED</h2>
+                <div className='display-5 d-inline-flex simbolos'><b>- : -</b> </div>
+                <h2 className='texto-clubs display-5 d-inline-flex'>LEICESTER CITY</h2>
+                <img className='img-fluid d-inline-flex logo-club' src={logo2} alt="" />
+              </div>
               <p className='lead'>FEBRERO 7, 2525, OLD TRAFFORD</p>
               <p className='fs-3'>3:00pm</p>
             </div>
@@ -48,15 +50,16 @@ function Partidos() {
       </section>
 
       <div className='padded-partidos pasados'>
-        <div className="container text-center">
-          <div className="row">
-            <div className="col cuadros container text-center justify-content-center ms-2 me-2">
+        <div className="text-center">
+          <div className="row d-flex justify-content-center">
+            {/* Primer Cuadro */}
+            <div className="col-md-3 cuadros text-center justify-content-center ms-2 me-2 mb-3">
               <div className="row">
                 <div className="col team">
                   <h4 className='col'>
                     Man Utd
                   </h4>
-                  <img className='img-fluid' src={logo1} alt="" />
+                  <img className='img-fluid logos' src={logo1} alt="United Logo" />
                 </div>
                 <div className="col">
                   <p className='texto-pasados mb-3'>PREMIER LEAGUE</p>
@@ -79,18 +82,19 @@ function Partidos() {
                   <h4 className='col'>
                     Crystal Palace
                   </h4>
-                  <img className='img-fluid' src={logo3} alt="" />
+                  <img className='img-fluid logos' src={logo3} alt="" />
                 </div>
               </div>
             </div>
 
-            <div className="col cuadros container text-center justify-content-center ms-2 me-2">
+            {/* Segundo Cuadro */}
+            <div className="col-md-3 cuadros text-center justify-content-center ms-2 me-2 mb-3">
               <div className="row">
                 <div className="col team">
                   <h4 className='col'>
                     Man Utd
                   </h4>
-                  <img className='img-fluid' src={logo1} alt="" />
+                  <img className='img-fluid logos' src={logo1} alt="United Logo" />
                 </div>
                 <div className="col">
                   <p className='texto-pasados mb-3'>EUROPA LEAGUE</p>
@@ -113,18 +117,19 @@ function Partidos() {
                   <h4 className='col'>
                     FCSB
                   </h4>
-                  <img className='img-fluid' src={logo4} alt="" />
+                  <img className='img-fluid logos' src={logo4} alt="" />
                 </div>
               </div>
             </div>
 
-            <div className="col cuadros container text-center justify-content-center ms-2 me-2 wa">
+            {/* Tercer Cuadro */}
+            <div className="col-md-3 cuadros text-center justify-content-center ms-2 me-2 mb-3">
               <div className="row">
                 <div className="col team">
                   <h4 className='col'>
                     Man Utd
                   </h4>
-                  <img className='img-fluid' src={logo1} alt="" />
+                  <img className='img-fluid logos' src={logo1} alt="United Logo" />
                 </div>
                 <div className="col">
                   <p className='texto-pasados mb-3'>PREMIER LEAGUE</p>
@@ -147,7 +152,7 @@ function Partidos() {
                   <h4 className='col'>
                     Fulham
                   </h4>
-                  <img className='img-fluid' src={logo5} alt="" />
+                  <img className='img-fluid logos' src={logo5} alt="" />
                 </div>
               </div>
             </div>

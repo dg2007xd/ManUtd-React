@@ -194,8 +194,35 @@ h3 {
     width: 25px !important;
     height: 25px !important;
   }
+  .sig-match{
+    display: inline-flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .simbolos{
+    margin: 0 !important;
+  }
+  .texto-clubs{
+  
+    margin: 0 !important;
+  }
+  .texto-partido{
+    margin-bottom: 15px !important;
+  }
 }
 
+
+@media (max-width: 1598px) {
+  .logos{
+    max-width: 65px !important;
+    max-height: 65px !important;
+  }
+  .cuadros{
+    height: 13rem !important;
+    width: 28rem !important;
+  }
+}
 .banners2 {
   height: 600px;
   filter: brightness(55%);
@@ -255,19 +282,19 @@ mark {
   background-color: rgba(196, 34, 33);
   max-width: 160px;
   margin: auto;
+  padding-right: 3px;
+  padding-left: 3px;
 }
 
 .texto-clubs {
-  font-size: 48px;
   margin: auto;
   margin-right: 5%;
 }
 
 .simbolos {
   font-size: 48px;
-  font-family: 'Courier New', Courier, monospace;
-  margin: auto;
-  margin-right: 8%;
+    font-family: Courier New, Courier, monospace;
+    margin: auto 9.5% auto auto;
 }
 
 .logo-club {
@@ -359,7 +386,12 @@ mark {
 
 .cuadros {
   background-color: white;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 31rem;
 }
 
 .texto-pasados {
@@ -704,4 +736,21 @@ mark {
   color: white;
   width: 30px;
   height: 30px;
+}
+.match-container {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.team-logo {
+  max-width: 65px;
+}
+.sig-match{
+  display: flex;
+  flex-direction: row;
+}
+.logos{
+  min-width: 90px;
+  min-height: 90px;
 }
