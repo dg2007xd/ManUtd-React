@@ -213,7 +213,7 @@ h3 {
 }
 
 
-@media (max-width: 1598px) {
+@media (max-width: 1601px) {
   .logos{
     max-width: 65px !important;
     max-height: 65px !important;
@@ -223,6 +223,11 @@ h3 {
     width: 28rem !important;
   }
 }
+
+@media (max-width: 1399px) {
+
+}
+
 .banners2 {
   height: 600px;
   filter: brightness(55%);

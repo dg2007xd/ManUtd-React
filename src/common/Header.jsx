@@ -22,7 +22,7 @@ function Header() {
                 <Link className="navbar-brand" to="/">
                     <img id='logo' src={logo} alt="Logo" className='img-fluid' />
                 </Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <button className="navbar-toggler" style={{position: "absolute", top: "1.5rem", backgroundColor: "#a3a3a3"}} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 
