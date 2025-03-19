@@ -5,7 +5,6 @@ import Footer from './common/Footer'
 import Boton from './common/Boton'
 import Header from './common/Header'
 import Inicio from './pages/Inicio'
-import Clientes from './pages/Clientes'
 import AcercadeNosotros from './pages/AcercadeNosotros'
 import Contacto from './pages/Contacto'
 import MiCuenta from './pages/MiCuenta'
@@ -22,7 +21,6 @@ function App() {
         <main id='main-content'>
           <Routes>
             <Route path="/" element={<Inicio />} />
-            <Route path="/clientes" element={<Clientes />} />
             <Route path="/acercadenosotros" element={<AcercadeNosotros />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/micuenta" element={<MiCuenta />} />
